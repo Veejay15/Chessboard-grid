@@ -1,0 +1,161 @@
+.white-pawn-three {
+    animation: moveTwoUp 1.5s ease 1 forwards,
+      whitePawnThreeTake 1.5s 3.3s ease 1 forwards,
+      whitepThreeTakeBpFive 1.5s 6.2s ease 1 forwards,
+      taken 1.5s 8.4s ease 1 forwards;
+  }
+  
+  .black-pawn-four {
+    animation: moveTwoSq 1.5s 1.9s ease 1 forwards,
+      taken 1.5s 4s ease 1 forwards;
+  }
+  
+  .black-pawn-five {
+    animation: moveOneUp 1.5s 4.7s ease 1 forwards,
+      taken 1.5s 6.7s ease 1 forwards;
+  }
+  
+  .black-bishop {
+    animation: takeBpFive 1.5s 7.7s ease 1 forwards,
+      blackBishopTakeWpOne 1.5s 16.5s ease 1 forwards;
+  }
+  
+  .white-horse {
+    animation: whiteHorseMove 1.5s 9.4s ease 1 forwards;
+  }
+  
+  .black-queen {
+    animation: blackQueen 1.5s 11s ease 1 forwards,
+      takeWhitepTwo 1.5s 14s ease 1 forwards,
+      taken 1.5s 16s ease 1 forwards;
+  }
+  
+  .white-pawn-two {
+    animation: moveForwardUp 1.5s 12.5s ease 1 forwards,
+      taken 1.5s 14.6s ease 1 forwards;
+  }
+  
+  .white-pawn-one {
+    animation: whitepOneTakeBqueen 1.5s 15.5s ease 1 forwards,
+      taken 1.5s 17.3s ease 1 forwards;
+  }
+  @keyframes moveTwoUp {
+    100% {
+      transform: translate(0, 16rem);
+    }
+  }
+  
+  @keyframes moveTwoSq {
+    100% {
+      transform: translate(0, -16rem);
+    }
+  }
+  
+  @keyframes whitePawnThreeTake {
+    100% {
+      transform: translate(8rem, 24rem);
+    }
+  }
+  
+  @keyframes taken {
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes moveOneUp {
+    100% {
+      transform: translate(0, -8rem);
+    }
+  }
+  
+  @keyframes whitepThreeTakeBpFive {
+    100% {
+      transform: translate(16rem, 32rem);
+    }
+  }
+  
+  @keyframes takeBpFive {
+    100% {
+      transform: translate(16rem, -16rem);
+    }
+  }
+  
+  @keyframes whiteHorseMove {
+    100% {
+      transform: translate(-8rem, 16rem);
+    }
+  }
+  
+  @keyframes blackQueen {
+    100% {
+      transform: translate(-32rem, -32rem);
+    }
+  }
+  
+  @keyframes moveForwardUp {
+    100% {
+      transform: translate(0, 8rem);
+    }
+  }
+  
+  @keyframes takeWhitepTwo {
+    100% {
+      transform: translate(-24rem, -40rem);
+    }
+  }
+  
+  @keyframes whitepOneTakeBqueen {
+    100% {
+      transform: translate(8rem, 8rem);
+    }
+  }
+  
+  @keyframes blackBishopTakeWpOne {
+    100% {
+      transform: translate(-8rem, -40rem);
+    }
+  }
+  /* MEDIA QUERIES */
+
+@media (max-width: 48.75em) {
+    html {
+      font-size: 65%;
+    }
+  }
+  
+  @media (max-width: 50.375em) {
+    html {
+      font-size: 55%;
+    }
+  }
+  
+  @media (max-width: 42.5em) {
+    html {
+      font-size: 45%;
+    }
+  }
+  
+  @media (max-width: 34.75em) {
+    html {
+      font-size: 40%;
+    }
+  }
+  
+  @media (max-width: 30.625em) {
+    html {
+      font-size: 35%;
+    }
+  }
+  
+  @media (max-width: 26.5625em) {
+    html {
+      font-size: 30%;
+    }
+  }
+  
+  @media (max-width: 22.1875em) {
+    html {
+      font-size: 25%;
+    }
+  }
